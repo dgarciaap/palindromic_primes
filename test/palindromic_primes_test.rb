@@ -6,6 +6,16 @@ class PalindromicPrimesTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    assert true
+  end
+
+  def test_it_gets_five_numbers
+	  five_numbers = PalindromicPrimes.palindromic_primes(5)
+	  assert_equal [2, 3, 5, 7, 11], five_numbers
+  end
+
+  def result_is_an_array
+	  result = PalindromicPrimes.palindromic_primes(2)
+	  assert result.is_a?
   end
 end
