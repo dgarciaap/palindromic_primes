@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    palindromic_primes (0.1.0)
+      prime
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.0)
+    prime (0.1.0)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  palindromic_primes!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
