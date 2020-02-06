@@ -23,7 +23,7 @@ Or install it yourself as:
  require 'palindromic_primes'
  
  #Will get n palindromic prime numbers
- PalindromicPrimes.palindromic_primes(15)
+ PalindromicPrimes.palindromic_primes(4)
  => [2, 3, 5, 7] 
 ```
 
