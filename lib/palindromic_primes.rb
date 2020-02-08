@@ -7,7 +7,7 @@ module PalindromicPrimes
     n.to_s == n.to_s.reverse
   end
 
-  def self.palindromic_primes(n)
+  def self.get_first_n_numbers(n)
     Prime.each.lazy.select { |x| is_palindrome?(x) }.first(n)
   end
 end
